@@ -55,7 +55,7 @@ table {
   src: url("../fonts/impact/impact.ttf") format("truetype"); }
 html {
   font-size: 10px;
-  min-width: 1880px; }
+  max-width: 1920px; }
 
 header {
   width: 100%;
@@ -137,7 +137,7 @@ header {
 .left {
   display: block;
   position: relative;
-  left: 58.4%;
+  left: 58.8%;
   top: -322px;
   background-image: url(../img/Без-имени-3.png);
   width: 839px;
