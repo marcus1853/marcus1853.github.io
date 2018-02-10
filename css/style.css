@@ -138,10 +138,10 @@ header {
 
 .left {
   display: block;
-  position: static;
+  position: absolute;
   padding-top: 320px;
   padding-left: 80px;
-  margin-left: 1049px;
+  right: 0px;
   margin-top: -320px;
   background-image: url(../img/Без-имени-3.png);
   width: 839px;
