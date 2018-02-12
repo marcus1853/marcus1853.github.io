@@ -59,7 +59,8 @@ table {
 html {
   font-size: 10px;
   margin: auto;
-  max-width: 1920px; }
+  max-width: 1920px;
+  min-width: 1400px; }
 
 header {
   width: 100%;
