@@ -17,11 +17,12 @@ $black-color: #2a2a29
 html
 	font-size: 10px
 	margin: auto
-	// position: absolute
-article
 	max-width: 1920px
-	min-width: 1600px
-	margin: auto
+	// position: absolute
+// article
+// 	max-width: 1920px
+// 	min-width: 1600px
+// 	margin: auto
 header
 	width: 100%
 	background-color: black
@@ -111,7 +112,9 @@ header
 	display: block
 	// position: relative
 	z-index: 0
-	margin-left: 12.6%
+	position: absolute
+	// margin-left: 12.6%
+	right: 0px
 	padding-top: 320px
 	padding-left: 80px
 	// right: -56.03%
@@ -612,3 +615,17 @@ footer
 		font-size: 3rem
 
 //============================   media   ==============================
+
+@media only screen and (max-width: 1740px)
+	html
+		font-size: 8px
+	.left
+		margin-top: -301px
+		width: 700px
+	.left-wrap
+		height: 350px
+		width: 490px
+		padding: 35px
+	.wrap
+		width: 700px
+		padding-left: 80px

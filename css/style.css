@@ -35,7 +35,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
   content: none; }
 
 table {
@@ -47,20 +47,19 @@ table {
   src: url("../fonts/myriad pro/MyriadPro-Regular.eot");
   src: url("../fonts/myriad pro/MyriadPro-Regular.ttf") format("truetype");
   src: url("../fonts/myriad pro/MyriadPro-Regular.woff") format("woff"); }
+
 @font-face {
   font-family: "Arial";
   src: url("../fonts/arial/arial.ttf") format("truetype"); }
+
 @font-face {
   font-family: "Impact";
   src: url("../fonts/impact/impact.ttf") format("truetype"); }
+
 html {
   font-size: 10px;
-  margin: auto; }
-
-article {
-  max-width: 1920px;
-  min-width: 1600px;
-  margin: auto; }
+  margin: auto;
+  max-width: 1920px; }
 
 header {
   width: 100%;
@@ -105,7 +104,7 @@ header {
   width: 885px;
   background-color: rgba(42, 42, 41, 0.75); }
   .wrap::after {
-    content: "";
+    content: '';
     top: 0px;
     border: 60px solid transparent;
     border-left: 20px solid rgba(42, 42, 41, 0.75);
@@ -126,6 +125,7 @@ header {
     font-size: 3.5rem;
     color: white;
     font-family: "Impact", Sans-serif; }
+
 .wrap .wrap-second_title {
   display: flex;
   margin-top: 25px; }
@@ -148,7 +148,8 @@ header {
 .left {
   display: block;
   z-index: 0;
-  margin-left: 12.6%;
+  position: absolute;
+  right: 0px;
   padding-top: 320px;
   padding-left: 80px;
   margin-top: -320px;
@@ -196,7 +197,7 @@ header {
           color: white;
           font-family: "MyriadPro-Regular", Sans-serf; }
           .left_wrap form div .lab::before {
-            content: "";
+            content: '';
             display: inline-block;
             vertical-align: middle;
             width: 17px;
@@ -624,3 +625,17 @@ footer {
     color: white;
     font-family: "Impact", Sans-serif;
     font-size: 3rem; }
+
+@media only screen and (max-width: 1740px) {
+  html {
+    font-size: 8px; }
+  .left {
+    margin-top: -301px;
+    width: 700px; }
+  .left-wrap {
+    height: 350px;
+    width: 490px;
+    padding: 35px; }
+  .wrap {
+    width: 700px;
+    padding-left: 80px; } }
